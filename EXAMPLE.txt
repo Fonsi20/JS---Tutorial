@@ -1,3 +1,14 @@
-HI!
+<!DOCTYPE html>
+<html>
+<body>
 
-THIS IS A PROJECT OF EXAMPLE.
+<h2>Example Proyect - Fonsi</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+</body>
+</html> 

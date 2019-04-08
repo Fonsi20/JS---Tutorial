@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+    <p>Before the script...</p>
+
+
+    <p id="exit"></p>
+
+    <script>
+        alert('Hello, world!');
+
+        var i = 0;
+        var x = "";
+
+        while (i <= 20) {
+            x += "<br>me gusta batman " + i + " es lo mejor";
+            i++;
+        }
+
+        document.getElementById("exit").innerHTML = x;
+    </script>
+
+    <p>...After the script.</p>
+
+</body>
+
+</html>
